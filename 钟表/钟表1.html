@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>钟表1</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                
+                height: 100%;
+                /*overflow: hidden;*/
+                background-image: radial-gradient(ellipse at 50% 70%,#dddddd,#cccccc,#111111);
+            }
+            #t1{
+                position: absolute;
+                left: 50%;
+                margin-left: -175px;
+                top: 30%;
+                height: 350px;
+                width: 350px;
+                border-radius: 60px;
+                background: white;
+                /*background-image: linear-gradient(#ffffff 40px,#ddecf2 210px,#d3e3e9);*/
+            }
+            #tlin{
+                position: absolute;
+                box-shadow: 0px -4px 3px 3px #b8bdca inset;
+                border-radius: 60px;
+                opacity: 0.6;
+                height: 100%;
+                width: 100%;
+            }
+            #t2{
+                position: relative;
+                width: 200px;
+                height: 200px;
+                background-color: burlywood;
+                top: 75px;
+                left: 75px;
+                border-radius: 50%;
+                background-image: linear-gradient(#f9fdff, #d9eaf8);
+            }
+            #t2 i{
+                font-style: normal;
+                font-size: 20px;
+                color: #8da6b8;
+            }
+            .numeber{
+                position: absolute;
+                line-height: 100%;
+            }
+            .n12{
+                left: 50%;
+                top: 15px;
+                margin-left: -12px;
+            }
+            .n3{
+                top: 50%;
+                margin-top: -10px;
+                right: 15px;
+            }
+            .n6{
+                left: 50%;
+                bottom: 15px;
+            }
+            .n9{
+                top: 50%;
+                margin-top: -10px;
+                left: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="t1">
+            <div id="tlin">
+                <div id="t2">
+                    <i class="numeber n12">12</i>
+                    <i class="numeber n3">3</i>
+                    <i class="numeber n6">6</i>
+                    <i class="numeber n9">9</i>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
