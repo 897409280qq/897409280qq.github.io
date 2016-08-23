@@ -9,6 +9,6 @@ router.get('/cat',function(req,res,next){
     res.send('这是小猫')
 })
 router.get('/aa',function(req,res,next){
-    res.render('xx/zz/aa',{titile:'连续'},{h1:"say hello"})
+    res.render('xx/zz/aa',{titile:'连续',h1:"标题"})
 })
 module.exports = router;
